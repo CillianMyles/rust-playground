@@ -1,3 +1,8 @@
+# create cargo project
+cd ../
+cargo new --name hello-cargo 02-hello-cargo
+cd 02-hello-cargo
+
 # debug
 
 # compile
