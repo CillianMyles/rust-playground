@@ -2,6 +2,5 @@
 resolver = "2"
 
 members = [
-    "02-hello-cargo",
-    "03-rusqlite-example",
+    "02-hello-cargo", "03-rusqlite-example", "05-guessing-game",
 ]
