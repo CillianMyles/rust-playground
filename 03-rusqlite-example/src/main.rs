@@ -36,8 +36,7 @@ fn main() -> Result<()> {
     for row in rows {
         let (name, ease_of_use, performance, score) = row.unwrap();
         println!(
-            "{} ( ease_of_use: {}, performance: {}, score: {} )",
-            name, ease_of_use, performance, score,
+            "{name} ( ease_of_use: {ease_of_use}, performance: {performance}, score: {score} )",
         );
     }
 
